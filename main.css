@@ -1,0 +1,390 @@
+body {
+	background-image: url("images/body_background.png");
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0F2347;
+    border: transparent;
+    height:60px;
+    border-radius: 10px;
+}
+
+li {
+    
+}
+
+li a {
+
+	
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px;
+    
+}
+
+
+li.botoes_menu{
+
+
+    background-color: #163584;
+    display: block;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 8px 8px 0px 8px;
+    border: transparent;
+    border-color: black;
+    float: right;
+
+
+
+}
+
+li.botoes_menu_inside{
+
+
+    background-color: #2C8CAB;
+    display: block;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 8px 8px 0px 8px;
+    border: transparent;
+    border-color: black;
+    float: right;
+
+}
+
+
+
+.botoes_menu:hover{
+	background-color: #2C8CAB;
+}
+
+.homeLogo {
+
+	float: left;
+	overflow: hidden;
+ 	font-family: 'Aclonica', sans-serif;
+ 	display:block;
+ 	font-size: 26px;
+ 	color: white;
+}
+img.homeLogo {
+	display: block;
+}
+
+#logoText{
+
+    padding: 20px 8px
+
+}
+
+#logoImg{
+
+    background-image: url("images/logo_home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 16px 16px;
+    width: 25px;
+    height: 25px;
+
+
+}
+
+#bg_inicial {
+    background-image: url("images/logo_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    position: relative;
+
+    height: 700px;
+    margin: 410px 75px 0px 75px  ;
+
+    border: transparent;
+    border-radius: 60px;
+}
+
+
+div#text_inicial {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 50%;
+    max-height: 40%;
+    background-color: #00030D;
+    border: transparent;
+    border-radius: 70px;
+    opacity: 1;
+    float: right;
+    margin-bottom: 10px;
+
+}
+
+div#text_inicial p{
+
+    padding: 2px 5px;
+    font-size: 1.5vw;
+    text-align: center;
+    color: #006DAB;
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 1.0;
+
+}
+
+#logo {
+
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    position: absolute;
+    top: 12%;
+    right: 13%;
+    width: 350px;
+    height: 350px;
+    margin: 0px 75px 0px 75px ;
+
+    border: transparent;
+    border-radius: 10px;
+
+
+}
+
+a div#confira {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.5vw;
+}
+
+div#confira{
+    position: absolute;
+    top: 95%;
+    left: 35%;
+    background-color: #0F2347;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 0px 8px 0px 8px;
+    border: transparent;
+    border-color: black;
+    opacity: 0.5;
+ 
+}
+
+div#confira:hover{
+background-color: #2C8CAB;
+opacity: 1.0;
+}
+
+.titles{
+
+    padding: 10px;
+    background-color: #001F29;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 99%;
+    
+    
+}
+
+div.titles p{
+    
+    padding: 10px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Aclonica';
+    text-align: center;
+}
+
+div#Sobrepad{
+    padding-bottom: 500px;
+}
+
+
+.projetos {
+
+    position: relative;
+    margin: 2.5% 75px;
+    left: 1%;
+    width: 90%;
+    height: 500px;
+    max-height: 35%;
+    background-color: black; 
+    float:left;
+    overflow: hidden;
+    border-radius: 60px;
+    display: block;
+}
+
+.projetos p{
+    font-size: 24px;
+    font-family: 'Aclonica', sans-serif;
+    font-color: white;
+}
+
+div.projetos img{
+    padding-left: 35px;
+    position: relative;
+    margin: 20px;
+    max-width:100%;
+    max-height:100%;
+}
+
+div.content p img{
+    padding-left: 35px;
+    position: relative;
+    margin: 20px;
+    max-width:100%;
+    max-height:100%;
+}
+
+#projeto_text{
+    float: right;
+    right: 7%;
+    top: 5%;
+    position: relative;
+    height: 450px;
+    width: 50%;
+    
+    display: block;
+
+    color: #cccccc;
+
+    text-align: center;
+}
+
+#projeto_text h1{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 1.0;
+    font-size: 32px;
+}
+
+#projeto_text p{
+
+    font-family: 
+    margin-top: 10%;
+    font-size: 16px;
+}
+
+.contato {
+
+    position: relative;
+    margin: 2.5% 75px;
+    left: 1%;
+    width: 90%;
+    height: 750px;
+    max-height: 35%;
+    background-color: black; 
+    overflow: hidden;
+    border-radius: 60px;
+    display: block;
+}
+
+.contato h1,h3 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #cccccc;
+}
+
+#contato_form{
+
+    position: relative;
+    left: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #cccccc;
+    border-radius: 10px;
+}
+
+#contato_form label {
+ margin: 30px;
+}
+#contato_form div {
+    
+    margin: 30px 100px;
+}
+#contato_form input {
+    width: 500px;
+    border-radius: 3px;
+}
+
+#contato_form textarea {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#mensagem_box {
+    position: relative;
+    right: 18%;
+    text-align: center;
+}
+
+#contato_form button {
+    border-radius: 5px;
+}
+
+.sobre {
+    position: relative;
+    margin: 2.5% 75px;
+    left: 1%;
+    width: 90%;
+    height: 750px;
+    max-height: 35%;
+    background-color: black; 
+    overflow: hidden;
+    border-radius: 60px;
+    display: block;
+    text-align: center;
+}
+
+.sobre #foto {
+    margin-top: 2%;
+    max-height: 40%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#description {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #cccccc;
+}
+
+#social_buttons {
+    display: block;
+    float: left;
+}
+#social_buttons a img{
+    width: 30px;
+    height: 30px;
+}
